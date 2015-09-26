@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>HoopyFrood</id>
+        <version>0.0.2</version>
+        <title>Hoopy Frood</title>
+        <authors>Jon Scolamiero</authors>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/jdscolam/HoopyFrood</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A minimal and opinionated Angular template based on HotTowel</description>
+        <summary>MIT</summary>
+        <releaseNotes>Initial release</releaseNotes>
+        <copyright>2015</copyright>
+        <dependencies>
+            <dependency id="jQuery" version="2.1.4" />
+            <dependency id="angularjs" version="1.4.6" />
+            <dependency id="bootstrap" version="3.3.5" />
+            <dependency id="Angular.UI.Bootstrap" version="0.13.4" />
+            <dependency id="FontAwesome" version="4.4.0" />
+            <dependency id="lodash" version="3.10.1" />
+            <dependency id="Moment.js" version="2.10.6" />
+            <dependency id="Spin.js" version="2.0.1" />
+            <dependency id="toastr" version="2.1.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Content\app\common\common.js" target="Content\app\common\common.js" />
+        <file src="Content\app\common\logger.js" target="Content\app\common\logger.js" />
+        <file src="Content\app\common\spinner.js" target="Content\app\common\spinner.js" />
+        <file src="Content\app\directives\_._" target="Content\app\directives\_._" />
+        <file src="Content\app\services\models\fooModel.js" target="Content\app\services\models\fooModel.js" />
+        <file src="Content\app\services\datacontext.js" target="Content\app\services\datacontext.js" />
+        <file src="Content\app\views\layout\shell.html" target="Content\app\views\layout\shell.html" />
+        <file src="Content\app\views\layout\shell.js" target="Content\app\views\layout\shell.js" />
+        <file src="Content\app\views\main\main.html" target="Content\app\views\main\main.html" />
+        <file src="Content\app\views\main\main.js" target="Content\app\views\main\main.js" />
+        <file src="Content\app\app.js" target="Content\app\app.js" />
+        <file src="Content\app\config.exceptionHandler.js" target="Content\app\config.exceptionHandler.js" />
+        <file src="Content\app\config.js" target="Content\app\config.js" />
+        <file src="Content\app\config.route.js" target="Content\app\config.route.js" />
+        <file src="Content\Content\images\_._" target="Content\Content\images\_._" />
+        <file src="Content\Content\styles.css" target="Content\Content\styles.css" />
+        <file src="Content\index.html" target="Content\index.html" />
+    </files>
+</package>
